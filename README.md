@@ -7,16 +7,17 @@ The purpose of this website is to function as a hair/make up website for my girl
 
 ### Wireframes
 
-1. Technical Requirements
+
+---
+### 1. Technical Requirements
 - Link to Instagram
 - Embedded forms to submit contact information
 - Mobile support
 - Suport many images / galleries (SVG optimize)
 - Embedded calendar?
 
-2. Contect Requirements
+### 2. Contect Requirements
 - Biography
 - Image gallery
 - About the developer (lol)
 - Calendar (for availablility)
-- 

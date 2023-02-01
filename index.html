@@ -143,21 +143,22 @@
                         Your browser does not support the video tag.
                     </video>
                     <figcaption>Visiting San Diego!</figcaption>
-
-                    <canvas id="myCanvas" width="300" height="100"></canvas>
-                    <script>
-                        var canvas = document.getElementById("myCanvas");
-                        var ctx = canvas.getContext("2d");
-                        ctx.fillStyle = "white";
-                        ctx.fillRect(0, 0, 150, 75);
-                    </script>
-                    <br>
-
-                    <svg width="100" height="100">
-                        <circle cx="50" cy="50" r="40" fill="white"/>
-                    </svg>
                 </figure>
 
+                <canvas id="myCanvas" width="300" height="100"></canvas>
+                <script>
+                    var canvas = document.getElementById("myCanvas");
+                    var ctx = canvas.getContext("2d");
+                    ctx.fillStyle = "white";
+                    ctx.fillRect(0, 0, 150, 75);
+                </script>
+
+                <br>
+
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" fill="white"/>
+                </svg>
+                
                 <br>
 
                 <audio controls>
@@ -191,8 +192,8 @@
 
             </details>
 
-            <template name="socialMediaTemplate">
-                <img class="socialMediaTemplate-icon"/>
+            <template id="socialMediaTemplate">
+                <img class="socialMediaTemplate-icon">
             </template>
 
             <!--Remove tags just used for credit-->

@@ -1,7 +1,10 @@
 # cse134-hw2
 
 ### Summary
-The purpose of this website is to function as a hair/make up website for my girlfriend, who is a professional in the wedding industry. The website will provide information about her services, her past experiences, how to connect / book with her, and her potential availabilities in the upcoming months.
+The purpose of this hair and makeup artist website is to serve as an online platform for my girlfriend (who is in the beauty industry) to display her skills, promote her services, and attract new clients in the Seattle area.
+
+### Persona Diagram
+![Olivia Smith User Persona Diagram](/assets/user_persona.png)
 
 ### Site Diagram
 

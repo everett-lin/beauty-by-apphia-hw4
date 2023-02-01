@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/styles/main.css">
 
     <title>Beauty By Apphia</title>
@@ -32,22 +32,95 @@
 
     <main>  
         <section class="hero">
-            <h1>Beauty By Apphia</h1>
+            <h1><span style="color:#a5a58d">Beauty By Apphia</span></h1>
             <!--Remove tags just used for credit-->
-            <p>
-                <b>Hair Stlyist</b><br>
-                <i>Makeup Artist</i><br>
-                <code>Beauty Professional</code>
-            </p>
+            <pre>
+                <b>Hair Stlyist</b>
+
+                    <i>Makeup Artist</i>
+
+                        <code>Beauty Professional</code>
+            </pre>
         </section>
 
-        
+        <!--Remove tags just used for credit-->
+        <section id="test">
+            <h2> Services</h2>
+            <ol>
+                <li>Bridal Package</li>
+                <li>Special Events / Photoshoot</li>
+                <li>Haircuts</li>
+            </ol>
+            
+            <h2>About</h2>
+            <p>Apphia is a Professional Hairstylist + Makeup Artist offering on-site services to modern brides who want to look and feel their best on the most important days of their life.<br><br>
+
+                With over 8+ years of experience as a Beauty Professional in the Seattle wedding industry, and a portfolio of over 150+ weddings, Apphia brings a wealth of knowledge, passion, and expertise
+                to each and every client she works with. She has mastered the art of creating flawless, yet natural bridal looks, through her ongoing investment in achieving perfection in her craft.
+                Her attention to detail and commitment to using only the highest quality luxury products and tools guarantees long-lasting, stunning results.
+                Through her dedication and close communication with her clients, Apphia ensures that each and every bride's vision for their hair and makeup is brought to life, while still making them feel authentically themselves.
+                Her greatest joy is enhancing natural beauty, while making you look and feel the most confident, radiant, and beautiful you’ve ever felt on your special day. <br><br>
+                
+                We look forward to helping you look and feel your best on your wedding day!<br><br>
+                
+                <em>~Beauty by Apphia</em></p>
+
+                <aside>
+                    <h3>Hello gorgeous, and welcome to my little corner of the internet!"</h3>
+                </aside>
+            <hr>
+            
+            <form id="inquiry">
+                <fieldset>
+                    <legend>Inquiry</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="name" id="name" name="name"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+    
+                    
+                    <label for="eventType">Event Type:</label>
+                    <select>
+                        <datalist id="eventTypes">
+                            <optgroup label="Wedding Package">
+                                <option value="Bride">Bride</option>
+                                <option value="Bride + Bridal Party">Bride + Bridal Party</option>
+                                <option value="Bride + Bridal Party + Mother">Bride + Bridal Party + Mother</option>
+                            </optgroup>
+                            <optgroup label="Other">
+                                <option value="Special Event">Special Event</option>
+                                <option value="Photoshoot">Photoshoot</option>
+                                <option value="Haircut">Haircut</option>
+                            </optgroup>
+                        </datalist>
+                    </select><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea><br>
+
+                    <button id="submitButton" type="submit" form="inquiry">Submit</button>
+                </fieldset>
+
+                <script>
+                    document.getElementById("submitButton").addEventListener("click", function() {
+                      alert("Thanks for submitting!");
+                    });
+                </script>
+                
+            </form>
+
+        </section>
+
+
     </main>
 
     <footer>
+        <hr>
         <div>
             <!--Remove tags just used for credit-->
-            <p><strong>Email:</strong> <em>info@beautybyapphia.com</em></p>
+            <p><strong>Email:</strong>info@beautybyapphia.com</p>
         </div>
     </footer>
 

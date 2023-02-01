@@ -75,15 +75,22 @@
                     <legend>Inquiry</legend>
 
                     <label for="name">Name:</label>
-                    <input type="name" id="name" name="name"><br>
+                    <input type="username" id="name" name="name"><br><br>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email"><br><br>
     
+                    <label for="subject">Subject:</label>
+                    <input list="subjects" id="subject" name="subject" required>
+                    <datalist id="subjects">
+                        <option value="General Inquiry">
+                        <option value="Booking Request">
+                        <option value="Feedback">
+                    </datalist><br><br>
+
                     
-                    <label for="eventType">Event Type:</label>
+                    <label">Event Type:</label>
                     <select>
-                        <datalist id="eventTypes">
                             <optgroup label="Wedding Package">
                                 <option value="Bride">Bride</option>
                                 <option value="Bride + Bridal Party">Bride + Bridal Party</option>
@@ -94,7 +101,6 @@
                                 <option value="Photoshoot">Photoshoot</option>
                                 <option value="Haircut">Haircut</option>
                             </optgroup>
-                        </datalist>
                     </select><br><br>
 
                     <label for="message">Message:</label>

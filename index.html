@@ -41,14 +41,16 @@
 
                         <code>Beauty Professional</code>
             </pre>
-            <figure>
-                <picture>
+            <picture>
                     <source srcset="/assets/images/IMG_001.jpeg" media="(max-width: 700px)" width="300" height="450">
                     <img src="/assets/images/Rachelle-Jeremy-Wedding-36.jpeg" width="600" height="400" alt="Wedding image">
-                </picture>
-                <figcaption>Bridal Party</figcaption>
-              </figure>
+            </picture>
            
+            <audio controls>
+                <source src="/assets/mixkit-wedding-01-657.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
         </section>
 
         <!--Remove tags just used for credit-->
@@ -75,7 +77,7 @@
                 </aside>
             <hr>
             
-            <h3> Services</h3>
+            <h3> Services</h>
             <ol>
                 <li>Bridal Package</li>
                 <li>Special Events / Photoshoot</li>
@@ -83,7 +85,8 @@
             </ol>
 
             <h3>Gallery</h3>
-            <iframe src="https://www.instagram.com/beautyby_apphia/" title="Gallery" width="400" height="500">
+            <iframe src="https://www.instagram.com/beautyby_apphia/embed" width="500" height="500">
+                <p>Your browser does not support iframes.</p>
             </iframe>
 
             <hr>
@@ -126,13 +129,7 @@
 
                     <button id="submitButton" type="submit" form="inquiry">Submit</button>
                 </fieldset>
-
-                <script>
-                    document.getElementById("submitButton").addEventListener("click", function() {
-                      alert("Thanks for submitting!");
-                    });
-                </script>
-                
+               
             </form>
 
         </section>
@@ -143,8 +140,31 @@
     <footer>
         <hr>
         <div>
+            
+            <figure>
+                <video width="320" height="240" controls>
+                    <source src="assets/recorded-7748026675549.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Visiting San Diego!</figcaption>
+            </figure>
+            
             <!--Remove tags just used for credit-->
             <p><strong>Email:</strong>info@beautybyapphia.com</p>
+            <canvas id="myCanvas" width="300" height="100"></canvas>
+            <script>
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "white";
+                ctx.fillRect(0, 0, 150, 75);
+            </script>
+
+            <br>
+            
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" fill="white"/>
+            </svg>
+  
         </div>
     </footer>
 

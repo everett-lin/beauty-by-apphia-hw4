@@ -107,7 +107,7 @@ nav #cta {
         font-size: 10px;
     }
     #logo {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 
@@ -116,6 +116,7 @@ nav #cta {
     align-items: center;
     text-align: center;
     justify-content: center;
+    padding: auto;
     height: 24vh;
     background-color: white;
 

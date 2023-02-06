@@ -4,203 +4,48 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/styles/main.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
     <title>Beauty By Apphia</title>
-
-    <style>
-        body {
-            background-color: #F3DAD8;
-        }
-    </style>
-
 </head>
 
 <body>
     <header>
-        <nav id="navbar">
+        <a id="logo" href="index.html">Beauty By Apphia</a>
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="inquiry.html">Inquiry</a></li>
+                <li id="cta"><a href="inquiry.html">Inquiry</a></li>
             </ul>
         </nav>
     </header>
 
-    
-
     <main>  
-        <section class="hero">
-            <h1><span style="color:#a5a58d">Beauty By Apphia</span></h1>
-            <!--Remove tags just used for credit-->
-            <pre>
-                <b>Hair Stlyist</b>
-
-                    <i>Makeup Artist</i>
-
-                        <code>Beauty Professional</code>
-            </pre>
-            <picture>
-                    <source srcset="/assets/images/IMG_001.jpeg" media="(max-width: 700px)" width="300" height="450">
-                    <img src="/assets/images/Rachelle-Jeremy-Wedding-36.jpeg" width="600" height="400" alt="Wedding image">
-            </picture>
-           
+        <section class="title">
+            <h1 class="title-text">
+                Hair Stlyist <br>
+                Makeup Artist <br>
+                Beauty Professional
+            </h1>
         </section>
 
-        <!--Remove tags just used for credit-->
-        <section id="test">
-                      
-            <h2>About</h2>
-
-            <img src="/assets/images/IMG_002.jpeg" width="300" height="450" alt="Profile picture.">
-
-                <p>Apphia is a Professional Hairstylist + Makeup Artist offering on-site services to modern brides who want to look and feel their best on the most important days of their life.<br><br>
-
-                With over 8+ years of experience as a Beauty Professional in the Seattle wedding industry, and a portfolio of over 150+ weddings, Apphia brings a wealth of knowledge, passion, and expertise
-                to each and every client she works with. She has mastered the art of creating flawless, yet natural bridal looks, through her ongoing investment in achieving perfection in her craft.
-                Her attention to detail and commitment to using only the highest quality luxury products and tools guarantees long-lasting, stunning results.
-                Through her dedication and close communication with her clients, Apphia ensures that each and every bride's vision for their hair and makeup is brought to life, while still making them feel authentically themselves.
-                Her greatest joy is enhancing natural beauty, while making you look and feel the most confident, radiant, and beautiful you’ve ever felt on your special day. <br><br>
-                
-                We look forward to helping you look and feel your best on your wedding day!<br><br>
-                
-                <em>~Beauty by Apphia</em></p>
-
-                <aside>
-                    <em>Hello gorgeous, and welcome to my little corner of the internet!"</em>
-                </aside>
-            <hr>
-            
-            <h3> Services</h3>
-            <ol>
-                <li>Bridal Package</li>
-                <li>Special Events / Photoshoot</li>
-                <li>Haircuts</li>
-            </ol>
-
-            <h3>Gallery</h3>
-            <iframe src="https://www.instagram.com/beautyby_apphia/embed" width="500" height="500"></iframe>
-
-            <hr>
-
-            <form id="inquiry">
-                <fieldset>
-                    <legend>Inquiry</legend>
-
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br><br>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br><br>
-    
-                    <label for="subject">Subject:</label>
-                    <input list="subjects" id="subject" name="subject" required>
-                    <datalist id="subjects">
-                        <option value="General Inquiry">
-                        <option value="Booking Request">
-                        <option value="Feedback">
-                    </datalist><br><br>
-
-                    
-                    <label>Event Type:</label>
-                    <select>
-                            <optgroup label="Wedding Package">
-                                <option value="Bride">Bride</option>
-                                <option value="Bride + Bridal Party">Bride + Bridal Party</option>
-                                <option value="Bride + Bridal Party + Mother">Bride + Bridal Party + Mother</option>
-                            </optgroup>
-                            <optgroup label="Other">
-                                <option value="Special Event">Special Event</option>
-                                <option value="Photoshoot">Photoshoot</option>
-                                <option value="Haircut">Haircut</option>
-                            </optgroup>
-                    </select><br><br>
-
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message"></textarea><br>
-
-                    <button id="submitButton" type="submit" form="inquiry">Submit</button>
-                </fieldset>
-               
-            </form>
+        <section class="quote">
 
         </section>
-
 
     </main>
 
     <footer>
+        <a href="https://www.instagram.com/beautyby_apphia/">
+            <img src="assets/images/Instagram_Glyph_Black.png" alt="Apphia's Instagram" width="50" height="50">
+        </a>
         <hr>
-        <div>
-            <details>
-                <summary>Click here for more tag usage!</summary>
-                <figure>
-                    <video width="320" height="240" controls>
-                        <source src="assets/recorded-7748026675549.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <figcaption>Visiting San Diego!</figcaption>
-                </figure>
-
-                <canvas id="myCanvas" width="300" height="100"></canvas>
-                <script>
-                    var canvas = document.getElementById("myCanvas");
-                    var ctx = canvas.getContext("2d");
-                    ctx.fillStyle = "white";
-                    ctx.fillRect(0, 0, 150, 75);
-                </script>
-
-                <br>
-
-                <svg width="100" height="100">
-                    <circle cx="50" cy="50" r="40" fill="white"/>
-                </svg>
-                
-                <br>
-
-                <audio controls>
-                    <source src="/assets/mixkit-wedding-01-657.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-    
-                <br>
-    
-                <table>
-                    <caption>Work Experience</caption>
-                    <colgroup>
-                        <col style="background-color: #d6ccc2">
-                        <col>
-                        <col>
-                      </colgroup>
-                    <tr>
-                      <th>Location</th>
-                      <th>Years</th>
-                      <th>Occupation</th>
-                    </tr>
-                    <tr>
-                      <td>Bellevue,WA</td>
-                      <td>1</td>
-                      <td>Sonographer</td>
-                    </tr>
-                    <tr>
-                      <td>Seattle,WA</td>
-                      <td>7</td>
-                      <td>Hair / Makeup Artist</td>
-                    </tr>
-                </table>
-
-            </details>
-
-            <template id="socialMediaTemplate">
-                <img class="socialMediaTemplate-icon">
-            </template>
-
-            <!--Remove tags just used for credit-->
-            <p><strong>Email:</strong>info@beautybyapphia.com</p>
-            
-  
-        </div>
+        <p>Made by Ev</p>
+        <strong>email: info@beautybyapphia.com</strong>
     </footer>
 
 </body>

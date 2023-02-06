@@ -1,0 +1,98 @@
+body {
+    background-image: url('/assets/images/IMG_002.JPEG');
+    background-size: cover;
+    /* TODO: FOCUS ON APPHIA EVEN WHEN RESIZING*/
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0;
+
+    background-color: transparent;
+}
+
+#logo {
+    height: auto;
+    padding-left: 1rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+
+    font-size: 1.5rem;
+    font-style:normal;
+    letter-spacing: 0.2em;
+    font-family: 'Playfair Display'
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 0rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  padding: 1rem;
+  display: block;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  font-size: 12px;
+  font-style:normal;
+  letter-spacing: 0.2em;
+}
+
+nav a:hover {
+  background-color: #d6ccc2;
+}
+
+nav #cta {
+    background-color: #d5bdaf;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+}
+
+.title-text {
+    all:initial;
+    color: white;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 96px;
+    font-family: 'Playfair Display';
+}
+
+footer {
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    font-family:sans-serif;
+    letter-spacing: 0.1em;
+}

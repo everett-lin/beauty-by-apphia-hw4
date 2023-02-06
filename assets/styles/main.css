@@ -96,3 +96,13 @@ footer {
     font-family:sans-serif;
     letter-spacing: 0.1em;
 }
+
+.footer-info {
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+
+.instagram-logo{
+    padding-top: 24px;
+    padding-bottom: 16px;
+}

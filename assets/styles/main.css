@@ -87,6 +87,30 @@ nav #cta {
     font-family: 'Playfair Display';
 }
 
+@media (max-width: 1600px) {
+    .title-text {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-text {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .title-text {
+        font-size: 56px;
+    }
+    nav a {
+        font-size: 10px;
+    }
+    #logo {
+        font-size: 1.25rem;
+    }
+}
+
 .quote {
     display: flex;
     align-items: center;

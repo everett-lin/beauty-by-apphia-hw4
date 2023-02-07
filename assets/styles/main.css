@@ -101,7 +101,7 @@ nav #cta {
 
 @media (max-width: 1000px) {
     .title-text {
-        font-size: 56px;
+        font-size: 36px;
     }
     nav a {
         font-size: 10px;

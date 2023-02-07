@@ -99,7 +99,7 @@ nav #cta {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .title-text {
         font-size: 48px;
     }
@@ -112,6 +112,9 @@ nav #cta {
 }
 
 @media (max-width: 600px) {
+    body {
+        background-position: 20% 20%;
+    }
     .title-text {
         font-size: 32px;
     }

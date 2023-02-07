@@ -111,7 +111,7 @@ nav #cta {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 428px) {
     body {
         background-position: 20% 20%;
     }
@@ -124,7 +124,7 @@ nav #cta {
         padding-right:1rem;
     }
     .cursive {
-        font-size: 16px;
+        font-size: 12px;
     }
     #logo {
         font-size: 1rem;

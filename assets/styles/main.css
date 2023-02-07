@@ -113,7 +113,7 @@ nav #cta {
 
 @media (max-width: 428px) {
     body {
-        background-position: 20% 20%;
+        background-position: 60% 60%;
     }
     .title-text {
         font-size: 20px;
@@ -124,10 +124,14 @@ nav #cta {
         padding-right:1rem;
     }
     .cursive {
-        font-size: 2px;
+        font-size: 1rem;
+        font-family: serif;
     }
     #logo {
         font-size: 1rem;
+    }
+    .footer-info {
+        font-size: 10px;
     }
 }
 

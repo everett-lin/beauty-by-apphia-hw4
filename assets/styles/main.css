@@ -111,6 +111,16 @@ nav #cta {
     }
 }
 
+@media (max-width: 600px) {
+    .title-text {
+        font-size: 24px;
+    }
+    #logo {
+        font-size: 1rem;
+    }
+}
+
+
 .quote {
     display: flex;
     align-items: center;

@@ -117,9 +117,11 @@ nav #cta {
     }
     .quote {
         font-size: 10px;
+        padding-left: 1rem;
+        padding-right:1rem;
     }
     .cursive {
-        font-size: 1.5em;
+        font-size: 16px;
     }
     #logo {
         font-size: 1rem;

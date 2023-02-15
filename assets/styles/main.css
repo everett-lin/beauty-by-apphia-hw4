@@ -164,23 +164,28 @@ hr {
     }
     .title-text {
         font-size: 64px;
+        color:red;
     }
 }
 /* small laptop */
 @media (max-width: 992px) {
     .title-text {
         font-size: 56px;
+        color:orange;
     }
 }
 /* tablet */
 @media (max-width: 768px) {
     .title-text {
         font-size: 40px;
+        color:yellow;
     }
+    
 }
 /* phone */
 @media (max-width: 480px) {
     .title-text {
         font-size: 32px;
+        color:green;
     }
 }

@@ -159,6 +159,9 @@ hr {
 
 /* laptop */
 @media (max-width: 1600px) {
+    main {
+        background-position: 45% 45%;
+    }
     #logo {
         font-size: 1.25rem;
     }
@@ -167,20 +170,12 @@ hr {
         color:red;
     }
 }
-/* small laptop */
+/* tablet */
 @media (max-width: 992px) {
     .title-text {
         font-size: 56px;
         color:orange;
     }
-}
-/* tablet */
-@media (max-width: 768px) {
-    .title-text {
-        font-size: 40px;
-        color:yellow;
-    }
-    
 }
 /* phone */
 @media (max-width: 480px) {

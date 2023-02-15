@@ -192,6 +192,9 @@ hr {
         font-size: 40px;
         color:yellow;
     }
+    #welcome-quote p {
+        max-width: 20ch;
+    }
     
 }
 /* phone */

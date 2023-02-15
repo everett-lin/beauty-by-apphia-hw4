@@ -188,9 +188,6 @@ hr {
 }
 /* tablet */
 @media (max-width: 768px) {
-    main {
-        background-position: 80% 80%;
-    }
      .title-text {
         font-size: 40px;
         color:yellow;

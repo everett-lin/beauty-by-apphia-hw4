@@ -188,6 +188,7 @@ hr {
 
 /* small laptop */
 @media (max-width: 992px) {
+
     #nav-menu {
         display: none;
     }
@@ -201,8 +202,13 @@ hr {
     .title-text {
         font-size: 56px;
     }
+
     .cursive {
         font-size: 2.5rem;
+    }
+
+    #welcome-quote {
+        font-size: 10px;
     }
 }
 /* tablet */

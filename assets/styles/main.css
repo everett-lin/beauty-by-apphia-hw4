@@ -64,7 +64,7 @@ nav #cta {
 }
 
 main {
-    background-image: url('/assets/images/IMG_002.JPEG');
+    background-image: url('/assets/images/hero-large.JPEG');
     background-size: cover;
     background-position: 35% 35%;
     background-repeat: no-repeat;
@@ -183,7 +183,11 @@ hr {
 /* small laptop */
 @media (max-width: 992px) {
     main {
+        background-image: url('/assets/images/hero-small.JPEG');
+        background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     #nav-menu {
         display: none;

@@ -192,6 +192,7 @@ hr {
 
     #nav-hamburger {
         display: block;
+        padding-right: 0.5rem;
         cursor: pointer;
     }
 

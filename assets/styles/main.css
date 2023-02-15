@@ -92,7 +92,7 @@ main {
     all:initial;
     color: white;
     text-transform: uppercase;
-    font-size: 96px;
+    font-size: 6rem;
     font-family: 'Playfair Display', serif;
 }
 
@@ -166,7 +166,7 @@ hr {
         font-size: 1.25rem;
     }
     .title-text {
-        font-size: 64px;
+        font-size: 5rem;
         color:red;
     }
     .cursive {
@@ -179,7 +179,7 @@ hr {
         background-position: center;
     }
     .title-text {
-        font-size: 56px;
+        font-size: 3rem;
         color:orange;
     }
     .cursive {
@@ -189,7 +189,7 @@ hr {
 /* tablet */
 @media (max-width: 768px) {
      .title-text {
-        font-size: 40px;
+        font-size: 2rem;
         color:yellow;
     }
     #welcome-quote p {
@@ -200,7 +200,6 @@ hr {
 /* phone */
 @media (max-width: 480px) {
     .title-text {
-        font-size: 32px;
         color:green;
     }
 }

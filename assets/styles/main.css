@@ -157,24 +157,28 @@ hr {
     padding-bottom: 16px;
 }
 
+/* laptop */
 @media (max-width: 1600px) {
     #logo {
         font-size: 1.25rem;
     }
     .title-text {
-        font-size: 72px;
-    }
-}
-@media (max-width: 992px) {
-    .title-text {
         font-size: 64px;
     }
 }
+/* small laptop */
+@media (max-width: 992px) {
+    .title-text {
+        font-size: 56px;
+    }
+}
+/* tablet */
 @media (max-width: 768px) {
     .title-text {
         font-size: 40px;
     }
 }
+/* phone */
 @media (max-width: 480px) {
     .title-text {
         font-size: 32px;

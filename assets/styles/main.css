@@ -21,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #b4bbb3;
+    background-color: transparent;
 }
 #nav-hamburger {
     display: none;

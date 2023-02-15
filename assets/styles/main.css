@@ -166,9 +166,6 @@ hr {
 
 /* laptop */
 @media (max-width: 1600px) {
-    #logo {
-        font-size: 1.25rem;
-    }
     .title-text {
         font-size: 64px;
     }

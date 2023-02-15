@@ -28,7 +28,7 @@ header {
 }
 
 #nav-hamburger:hover {
-    fill: var(--nude-pallette-3);
+    stroke: var(--nude-pallette-3);
 }
 
 nav {

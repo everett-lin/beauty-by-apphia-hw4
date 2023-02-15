@@ -166,7 +166,7 @@ hr {
         font-size: 1.25rem;
     }
     .title-text {
-        font-size: 5rem;
+        font-size: 4rem;
         color:red;
     }
     .cursive {
@@ -189,7 +189,7 @@ hr {
 /* tablet */
 @media (max-width: 768px) {
      .title-text {
-        font-size: 2rem;
+        font-size: 1.75rem;
         color:yellow;
     }
     #welcome-quote p {

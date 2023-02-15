@@ -171,7 +171,6 @@ hr {
     }
     .title-text {
         font-size: 64px;
-        color:red;
     }
     .cursive {
         font-size: 3rem;
@@ -188,7 +187,7 @@ hr {
     #nav-menu {
         display: none;
     }
-    
+
     #nav-hamburger {
         display: block;
         cursor: pointer;
@@ -203,6 +202,12 @@ hr {
 }
 /* tablet */
 @media (max-width: 768px) {
+    #logo {
+        padding-left: 0.5rem;
+    }
+    #hero-text {
+        padding-left: 0.5rem;
+    }
      .title-text {
         font-size: 40px;
     }

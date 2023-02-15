@@ -23,6 +23,7 @@ header {
 
     background-color: transparent;
 }
+
 #nav-hamburger {
     display: none;
 }
@@ -63,7 +64,11 @@ nav #cta {
     background-color:var(--nude-pallette-5);
 }
 
-main {
+#about-main {
+background-color: var(--nude-pallette-1);
+}
+
+#index-main {
     background-image: url('/assets/images/hero-large.JPEG');
     background-size: cover;
     background-position: 40% 40%;
@@ -179,7 +184,7 @@ hr {
     }
 }
 @media (max-width: 1200px) {
-    main {
+    #index-main {
         background-image: url('/assets/images/hero-small.JPEG');
         background-size: cover;
         background-position: center;
@@ -231,4 +236,8 @@ hr {
     .title-text {
         font-size: 32px;
     }
+}
+
+.dark {
+    background-color: aqua;
 }

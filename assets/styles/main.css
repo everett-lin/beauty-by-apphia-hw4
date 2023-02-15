@@ -182,9 +182,6 @@ hr {
 }
 /* tablet */
 @media (max-width: 768px) {
-    main {
-        background-position: 70% 70%;
-    }
     .title-text {
         font-size: 40px;
         color:yellow;
@@ -193,9 +190,6 @@ hr {
 }
 /* phone */
 @media (max-width: 480px) {
-    main {
-        background-position: 80% 80%;
-    }
     .title-text {
         font-size: 32px;
         color:green;

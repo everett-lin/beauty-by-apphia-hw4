@@ -59,7 +59,7 @@ nav #cta {
 main {
     background-image: url('/assets/images/IMG_002.JPEG');
     background-size: cover;
-    background-position: 40% 40%;
+    background-position: 35% 35%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -173,7 +173,7 @@ hr {
 /* small laptop */
 @media (max-width: 992px) {
     main {
-        background-position: 60% 60%;
+        background-position: center;
     }
     .title-text {
         font-size: 56px;
@@ -182,7 +182,7 @@ hr {
 }
 /* tablet */
 @media (max-width: 768px) {
-    .title-text {
+     .title-text {
         font-size: 40px;
         color:yellow;
     }

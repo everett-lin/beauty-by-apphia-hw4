@@ -66,7 +66,7 @@ nav #cta {
 main {
     background-image: url('/assets/images/hero-large.JPEG');
     background-size: cover;
-    background-position: 35% 35%;
+    background-position: 40% 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -214,7 +214,6 @@ hr {
     #welcome-quote p {
         max-width: 36ch;
     }
-    
 }
 /* phone */
 @media (max-width: 480px) {

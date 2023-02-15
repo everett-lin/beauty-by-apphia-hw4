@@ -23,6 +23,13 @@ header {
 
     background-color: transparent;
 }
+#nav-hamburger {
+    display: none;
+}
+
+#nav-hamburger:hover {
+    fill: var(--nude-pallette-3);
+}
 
 nav {
     display: flex;
@@ -92,7 +99,7 @@ main {
     all:initial;
     color: white;
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 96px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -166,7 +173,7 @@ hr {
         font-size: 1.25rem;
     }
     .title-text {
-        font-size: 4rem;
+        font-size: 64px;
         color:red;
     }
     .cursive {
@@ -178,8 +185,16 @@ hr {
     main {
         background-position: center;
     }
+    #nav-menu {
+        display: none;
+    }
+    #nav-hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
     .title-text {
-        font-size: 3rem;
+        font-size: 56px;
         color:orange;
     }
     .cursive {
@@ -189,7 +204,7 @@ hr {
 /* tablet */
 @media (max-width: 768px) {
      .title-text {
-        font-size: 1.75rem;
+        font-size: 40px;
         color:yellow;
     }
     #welcome-quote p {
@@ -200,6 +215,7 @@ hr {
 /* phone */
 @media (max-width: 480px) {
     .title-text {
+        font-size: 32px;
         color:green;
     }
 }

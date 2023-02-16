@@ -379,10 +379,6 @@ hr {
         display: block;
     }
 
-    #about-banner pre{
-        font-size: 3rem;
-    }
-
     #about-container {
         flex-direction: column;
         justify-content: center;

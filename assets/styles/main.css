@@ -380,6 +380,7 @@ hr {
     }
 
     #about-banner pre{
+        background-position-y: center;
         font-size: 3rem;
     }
 

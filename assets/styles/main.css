@@ -214,7 +214,6 @@ hr {
 #about {
     display: flex;
     justify-content: center;
-    font-family: "Playfair Display", serif;
 
     height: 100%;
 }
@@ -250,7 +249,7 @@ hr {
 #about-me-text {
     padding-left: 3rem;
     font-size: 14px;
-
+    font-family: "Playfair Display", serif;
     max-width: 60ch;
 }
 
@@ -356,6 +355,13 @@ hr {
     }
 
     #about-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
         display: block;
     }
 
@@ -366,11 +372,37 @@ hr {
 
     #about-container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+    }
+
+    #greeting {
+        padding: 1rem;
+    }
+
+    #about-container img{
+        width: 90%;
+    }
+
+    #about-me-text {
+        padding-left: 0;
+        max-width: 50ch;
+        font-size: 14px;
+
     }
 }
 /* phone */
 @media (max-width: 480px) {
     .title-text {
         font-size: 32px;
+    }
+
+    #about-me-text {
+        padding-left: 0;
+        max-width: 45ch;
+        font-size: 12px;
+
     }
 }

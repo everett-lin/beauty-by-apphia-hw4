@@ -407,9 +407,9 @@ hr {
 
     #about-me-text {
         padding-left: 0;
-        padding: 2rem;
+        padding: 5%;
         max-width: 45ch;
-        font-size: 14px;
+        font-size: 16px;
         font-family: "Playfair Display", san-serif;
     }
 }

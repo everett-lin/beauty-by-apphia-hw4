@@ -194,9 +194,11 @@ hr {
     padding-bottom: 2.5rem;
     text-align: center;
 
-    background-image: url(/assets/images/about-me-banner.jpg) ;
+    width: cover;
+
+    background-image: url(/assets/images/test-min.jpg) ;
     background-size: 100%;
-    background-position: 5% 5%;
+    background-position: 10% 10%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -379,8 +381,6 @@ hr {
 
     #about-banner pre{
         font-size: 3rem;
-        background-image: none;
-        background-color: #bcb8b1;
     }
 
     #about-container {

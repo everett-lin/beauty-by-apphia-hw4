@@ -390,8 +390,8 @@ hr {
 
     #about-me-text {
         padding-left: 0;
-        max-width: 45ch;
-        font-size: 16px;
+        max-width: 50ch;
+        font-size: 14px;
 
     }
 }
@@ -407,7 +407,9 @@ hr {
 
     #about-me-text {
         padding-left: 0;
-        max-width: 40ch;
+        padding: 2rem;
+        max-width: 45ch;
         font-size: 14px;
+        font-family: "Playfair Display", san-serif;
     }
 }

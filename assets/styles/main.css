@@ -402,6 +402,7 @@ hr {
     }
 
     #about-banner pre{
+        color: black;
         background-color: var(--nude-pallette-2);
     }
 

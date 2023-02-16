@@ -401,6 +401,10 @@ hr {
         font-size: 32px;
     }
 
+    #about-banner pre{
+        background-color: var(--nude-pallette-2);
+    }
+
     #about-main {
         background-color: white;
     }

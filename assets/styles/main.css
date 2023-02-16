@@ -276,9 +276,11 @@ hr {
 #about {
     display: flex;
     justify-content: center;
-
-    padding: 4rem;
     font-family: "Playfair Display", serif;
+}
+
+#about img{
+    padding: 4rem;
 }
 
 #about-container {

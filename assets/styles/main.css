@@ -192,6 +192,7 @@ hr {
 
     background-image: url(/assets/images/about-me-banner.jpg) ;
     background-size: 100%;
+    background-position: 5% 5%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -266,7 +267,7 @@ hr {
     #index-main {
         background-image: url('/assets/images/hero-small.JPEG');
         background-size: cover;
-        background-position: fixed;
+        background-position: center;
     }
 
     #greeting {

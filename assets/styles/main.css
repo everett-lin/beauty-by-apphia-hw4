@@ -208,13 +208,15 @@ hr {
     align-items: center;
 
     background-color: var(--nude-pallette-4);
-    height: 70vh;
+    height: 100%;
 }
 
 #about {
     display: flex;
     justify-content: center;
     font-family: "Playfair Display", serif;
+
+    height: 100%;
 }
 
 #about img{
@@ -231,6 +233,7 @@ hr {
     justify-content: center;
 
     letter-spacing: 0.05rem;
+
 }
 
 #greeting {

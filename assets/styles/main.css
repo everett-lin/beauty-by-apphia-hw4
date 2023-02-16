@@ -380,7 +380,7 @@ hr {
     }
 
     #greeting {
-        font-size: 2rem;
+        font-size: 3rem;
         padding: 1rem;
     }
 
@@ -401,18 +401,13 @@ hr {
         font-size: 32px;
     }
 
-    #about-banner pre{
-        font-size: 2rem;
-    }
-
-    #greeting {
-        font-size: 2rem;
+    #about-main {
+        background-color: white;
     }
 
     #about-me-text {
         padding-left: 0;
-        max-width: 55ch;
-        font-size: 10px;
-
+        max-width: 40ch;
+        font-size: 14px;
     }
 }

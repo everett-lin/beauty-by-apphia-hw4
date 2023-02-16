@@ -366,6 +366,7 @@ hr {
     }
 
     #about-banner pre{
+        font-size: 3rem;
         background-image: none;
         background-color: #bcb8b1;
     }
@@ -379,6 +380,7 @@ hr {
     }
 
     #greeting {
+        font-size: 2rem;
         padding: 1rem;
     }
 
@@ -399,10 +401,18 @@ hr {
         font-size: 32px;
     }
 
+    #about-banner pre{
+        font-size: 2rem;
+    }
+
+    #greeting {
+        font-size: 2rem;
+    }
+
     #about-me-text {
         padding-left: 0;
-        max-width: 45ch;
-        font-size: 12px;
+        max-width: 55ch;
+        font-size: 10px;
 
     }
 }

@@ -293,6 +293,7 @@ hr {
     }
 
     #about-banner pre {
+        background-attachment: local;
         font-size: 4rem;
     }
 
@@ -337,7 +338,6 @@ hr {
      }
 
     #about-banner pre {
-        background-attachment: local;
         background-image: url(/assets/images/test.jpg) ;
         font-size: 3rem;
     }

@@ -168,6 +168,85 @@ hr {
     color: black;
 }
 
+.bg-dark {
+    background-color: black;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.text-light{
+    color:white;
+}
+
+.text-dark {
+    color: black;
+}
+
+#about-banner p {
+    margin: 0;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+    background-image: url(/assets/images/about-me-banner.jpg) ;
+    background-size: 100%;
+    background-position: 5% 5%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: "Southwood", serif;
+    font-size: 4rem;
+
+    letter-spacing: 0.03em;
+}
+
+#about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--nude-pallette-4);
+    height: 70vh;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+}
+
+#about img{
+    padding: 4rem;
+
+    height: 600px; 
+    width: 400px;
+}
+
+#about-container {
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    letter-spacing: 0.05rem;
+}
+
+#greeting {
+    font-family: "Southwood", serif;
+    font-size: 4rem;
+
+    color: #3C2A21;
+}
+
+#about-me-text {
+    padding-left: 3rem;
+    font-size: 14px;
+
+    max-width: 60ch;
+}
+
 /* laptop */
 @media (max-width: 1600px) {
     .title-text {
@@ -176,12 +255,29 @@ hr {
     .cursive {
         font-size: 3rem;
     }
+    #about img{
+        height: 540px; 
+        width: 360px;
+    }
 }
 @media (max-width: 1200px) {
     #index-main {
         background-image: url('/assets/images/hero-small.JPEG');
         background-size: cover;
         background-position: center;
+    }
+
+    #greeting {
+        font-size: 3rem;
+    }
+
+    #about img{
+        height: 420px; 
+        width: 280px;
+    }
+
+    #about-me-text {
+        font-size: 12px;
     }
 }
 
@@ -209,6 +305,10 @@ hr {
     #welcome-quote {
         font-size: 12px;
     }
+
+    #about-main {
+        flex-direction: column;
+    }
 }
 /* tablet */
 @media (max-width: 768px) {
@@ -230,79 +330,4 @@ hr {
     .title-text {
         font-size: 32px;
     }
-}
-
-.bg-dark {
-    background-color: black;
-}
-
-.bg-light {
-    background-color: white;
-}
-
-.text-light{
-    color:white;
-}
-
-.text-dark {
-    color: black;
-}
-
-#about-banner p {
-    margin: 0;
-    padding-top: 6rem;
-    padding-bottom: 3rem;
-    text-align: center;
-
-    background-image: url(/assets/images/about-me-banner.jpg) ;
-    background-size: 100%;
-    background-attachment: fixed;
-
-    font-family: "Southwood", serif;
-    font-size: 4rem;
-
-    letter-spacing: 0.03em;
-}
-
-#about-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: var(--nude-pallette-4);
-    height: 70vh;
-}
-
-#about {
-    display: flex;
-    justify-content: center;
-    font-family: "Playfair Display", serif;
-}
-
-#about img{
-    margin: 4rem;
-}
-
-#about-container {
-    padding-left: 3rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    letter-spacing: 0.05rem;
-
-    max-width: 60ch;
-}
-
-#greeting {
-    font-family: "Southwood", serif;
-    font-size: 4rem;
-
-    color: #3C2A21;
-}
-
-#about-me-text {
-    padding-left: 3rem;
-    font-size: 14px;
 }

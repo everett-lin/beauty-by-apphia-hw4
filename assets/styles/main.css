@@ -185,7 +185,7 @@ hr {
 }
 
 #about-header {
-    background-color: white;
+    background-color: black;
 }
 
 #about-banner pre {
@@ -211,7 +211,7 @@ hr {
     justify-content: center;
     align-items: center;
 
-    background-color: var(--nude-pallette-4);
+    background-color: white;
     height: 100%;
 }
 
@@ -255,6 +255,10 @@ hr {
     font-size: 14px;
     font-family: "Playfair Display", serif;
     max-width: 60ch;
+}
+
+#about-footer {
+    background-color: var(--nude-pallette-3);
 }
 
 /* laptop */
@@ -326,6 +330,10 @@ hr {
         width: 240px;
     }
 
+    #about-header #nav-hamburger{
+        stroke: white;
+     }
+
     #about-banner pre {
         font-size: 3rem;
     }
@@ -396,7 +404,6 @@ hr {
         padding-left: 0;
         max-width: 50ch;
         font-size: 14px;
-
     }
 }
 /* phone */
@@ -405,31 +412,11 @@ hr {
         font-size: 32px;
     }
 
-    #about-main {
-        background-color: white;
-    }
-
     #about-me-text {
         padding-left: 0;
         padding: 5%;
         max-width: 45ch;
         font-size: 16px;
-        font-family: "Playfair Display", san-serif;
-    }
-
-    #about-header {
-        background-color: black;
-    }
-
-    #about-header #logo {
-        color: white;
-    }
-
-    #about-header #nav-hamburger{
-       stroke: white;
-    }
-
-    #about-footer {
-        background-color: #bcb8b1;
+        font-family: "Playfair Display", serif;
     }
 }

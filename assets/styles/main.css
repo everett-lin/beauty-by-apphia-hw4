@@ -226,6 +226,10 @@ hr {
     width: 400px;
 }
 
+#about-mobile{
+    display:none;
+}
+
 #about-container {
     padding-right: 4rem;
     display: flex;
@@ -279,6 +283,10 @@ hr {
         width: 280px;
     }
 
+    #about-banner pre {
+        font-size: 4rem;
+    }
+
     #about-me-text {
         font-size: 12px;
     }
@@ -309,8 +317,23 @@ hr {
         font-size: 12px;
     }
 
-    #about-main {
-        flex-direction: column;
+    #about img{
+        padding: 2.5rem;
+        height: 360px; 
+        width: 240px;
+    }
+
+    #about-banner pre {
+        font-size: 3rem;
+    }
+
+    #greeting {
+        font-size: 3rem;
+    }
+
+    #about-me-text {
+        padding-left: 2rem;
+        font-size: 10px;
     }
 }
 /* tablet */
@@ -326,6 +349,23 @@ hr {
     }
     #welcome-quote p {
         max-width: 36ch;
+    }
+
+    #about {
+        display: none;
+    }
+
+    #about-mobile {
+        display: block;
+    }
+
+    #about-banner pre{
+        background-image: none;
+        background-color: #bcb8b1;
+    }
+
+    #about-container {
+        flex-direction: column;
     }
 }
 /* phone */

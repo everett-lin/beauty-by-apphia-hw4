@@ -254,7 +254,9 @@ hr {
     padding-bottom: 3rem;
     text-align: center;
 
-    background-color: var(--nude-pallette-1);
+    background-image: url(/assets/images/about-me-banner.jpg) ;
+    background-size: 100%;
+    background-attachment: fixed;
 
     font-family: "Southwood", serif;
     font-size: 4rem;
@@ -263,12 +265,19 @@ hr {
 }
 
 #about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: var(--nude-pallette-4);
+    height: 70vh;
 }
 
 #greeting {
     font-family: "Southwood", serif;
     font-size: 4rem;
+
+    color: #3C2A21;
 }
 
 #about {
@@ -280,11 +289,13 @@ hr {
 }
 
 #about-container {
+    padding-left: 3rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    padding: 3rem;
+    letter-spacing: 0.05rem;
 
     max-width: 60ch;
 }

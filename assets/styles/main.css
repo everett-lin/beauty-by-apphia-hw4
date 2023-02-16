@@ -428,4 +428,8 @@ hr {
     #about-header #nav-hamburger{
        stroke: white;
     }
+
+    #about-footer {
+        background-color: #bcb8b1;
+    }
 }

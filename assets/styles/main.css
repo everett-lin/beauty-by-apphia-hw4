@@ -391,11 +391,6 @@ hr {
         padding: 0;
     }
 
-    #greeting {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-
     #about-container img{
         width: 90%;
     }
@@ -410,6 +405,11 @@ hr {
 @media (max-width: 480px) {
     .title-text {
         font-size: 32px;
+    }
+
+    #greeting {
+        font-size: 4rem;
+        padding: 2rem;
     }
 
     #about-me-text {

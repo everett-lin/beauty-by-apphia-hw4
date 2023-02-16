@@ -147,7 +147,7 @@ footer {
 hr {
     width: 100%;
     height: 1px;
-    margin: 10px 0;
+    margin: 0;
     border: none;
     background-color: #ccc;
     transform: rotate(0deg);
@@ -248,15 +248,43 @@ hr {
     color: black;
 }
 
-#about-main {
-    background-color: var(--nude-pallette-1);
-}
-
-#about-banner {
-    padding-top: 4rem;
-    padding-bottom: 1.5rem;
+#about-banner p {
+    margin: 0;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
     text-align: center;
 
-    font-family: "Southwood";
+    background-color: var(--nude-pallette-1);
+
+    font-family: "Southwood", serif;
     font-size: 4rem;
+
+    letter-spacing: 0.03em;
+}
+
+#about-main {
+    background-color: var(--nude-pallette-4);
+}
+
+#greeting {
+    font-family: "Southwood", serif;
+    font-size: 4rem;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+
+    padding: 4rem;
+    font-family: "Playfair Display", serif;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 3rem;
+
+    max-width: 60ch;
 }

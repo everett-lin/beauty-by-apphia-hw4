@@ -196,7 +196,7 @@ hr {
 
     width: cover;
 
-    background-image: url(/assets/images/test.jpg) ;
+    background-image: url(/assets/images/about-banner.jpg) ;
     background-size: 100%;
     background-position: 10% 10%;
     background-repeat: no-repeat;
@@ -293,7 +293,6 @@ hr {
     }
 
     #about-banner pre {
-        background-attachment: local;
         font-size: 4rem;
     }
 
@@ -338,6 +337,8 @@ hr {
      }
 
     #about-banner pre {
+        background-attachment: local;
+        background-image: url(/assets/images/about-banner.jpg) ;
         font-size: 3rem;
     }
 

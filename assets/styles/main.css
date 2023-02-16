@@ -184,6 +184,10 @@ hr {
     color: black;
 }
 
+#about-header {
+    background-color: white;
+}
+
 #about-banner pre {
     margin: 0;
     padding-top: 6rem;
@@ -411,5 +415,17 @@ hr {
         max-width: 45ch;
         font-size: 16px;
         font-family: "Playfair Display", san-serif;
+    }
+
+    #about-header {
+        background-color: black;
+    }
+
+    #about-header #logo {
+        color: white;
+    }
+
+    #about-header #nav-hamburger{
+       stroke: white;
     }
 }

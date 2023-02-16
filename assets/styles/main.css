@@ -273,13 +273,6 @@ hr {
     height: 70vh;
 }
 
-#greeting {
-    font-family: "Southwood", serif;
-    font-size: 4rem;
-
-    color: #3C2A21;
-}
-
 #about {
     display: flex;
     justify-content: center;
@@ -298,4 +291,15 @@ hr {
     letter-spacing: 0.05rem;
 
     max-width: 60ch;
+}
+
+#greeting {
+    font-family: "Southwood", serif;
+    font-size: 4rem;
+
+    color: #3C2A21;
+}
+
+#about-me-text {
+    font-size: 14px;
 }

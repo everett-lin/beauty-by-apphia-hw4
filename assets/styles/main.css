@@ -64,10 +64,6 @@ nav #cta {
     background-color:var(--nude-pallette-5);
 }
 
-#about-main {
-background-color: var(--nude-pallette-1);
-}
-
 #index-main {
     background-image: url('/assets/images/hero-large.JPEG');
     background-size: cover;
@@ -82,8 +78,6 @@ background-color: var(--nude-pallette-1);
 
     text-decoration: none;
     text-transform: uppercase;
-
-    color: white;
 
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -238,6 +232,31 @@ hr {
     }
 }
 
-.dark {
-    background-color: aqua;
+.bg-dark {
+    background-color: black;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.text-light{
+    color:white;
+}
+
+.text-dark {
+    color: black;
+}
+
+#about-main {
+    background-color: var(--nude-pallette-1);
+}
+
+#about-banner {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+
+    font-family: "Southwood";
+    font-size: 4rem;
 }

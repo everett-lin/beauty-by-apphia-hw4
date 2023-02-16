@@ -20,19 +20,19 @@
 </head>
 
 <body>
-    <header class="dark">
-        <a id="logo" href="index.html">Beauty By Apphia</a>
+    <header class="bg-light">
+        <a id="logo" class="text-dark" href="index.html">Beauty By Apphia</a>
         <nav>
             <ul id="nav-menu">
-                <li><a href="index.html" alt="Home">Home</a></li>
-                <li><a href="about.html"alt="About">About</a></li>
-                <li><a href="portfolio.html" alt="Portfolio">Portfolio</a></li>
-                <li><a href="services.html" alt="Services">Services</a></li>
-                <li><a href="testimonials.html" alt="Testimonials">Testimonials</a></li>
-                <li id="cta"><a href="inquiry.html" alt="Inquiry">Inquiry</a></li>
+                <li><a class="text-dark" href="index.html" alt="Home">Home</a></li>
+                <li><a class="text-dark" href="about.html"alt="About">About</a></li>
+                <li><a class="text-dark" href="portfolio.html" alt="Portfolio">Portfolio</a></li>
+                <li><a class="text-dark" href="services.html" alt="Services">Services</a></li>
+                <li><a class="text-dark" href="testimonials.html" alt="Testimonials">Testimonials</a></li>
+                <li id="cta"><a  class="dark" href="inquiry.html" alt="Inquiry">Inquiry</a></li>
             </ul>
 
-            <svg id="nav-hamburger" width="48px" height="48px" viewBox="0 0 24 24" stroke="white" xmlns="http://www.w3.org/2000/svg">
+            <svg id="nav-hamburger" width="48px" height="48px" viewBox="0 0 24 24" stroke="black" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
 
@@ -40,21 +40,21 @@
             <script>
                 let svg = document.getElementById("nav-hamburger");
                 svg.addEventListener("click", function() {
-                  alert("TODO: Implement with JavaScript");
+                    alert("TODO: Implement with JavaScript");
                 });
             </script>
         </nav>
     </header>
     
     <main id="about-main">
-        <section id="hero-text">
-            <h1 class="title-text">
-                About
-            </h1>
-        </section>
+        <div id="about-banner" class="text-dark">
+            <p>Let's Get to Know Each Other</p>
+        </div>
     </main>
 
-    <footer>
+    
+
+    <footer class="bg-light">
         <div class="instagram-logo">
             <a href="https://www.instagram.com/beautyby_apphia/" target="_blank" alt="Apphia's Instagram">
                 <svg width="29" heigh="29" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">

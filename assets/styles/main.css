@@ -64,6 +64,14 @@ nav #cta {
     background-color:var(--nude-pallette-5);
 }
 
+#coming-soon {
+    background-image: url('/assets/images/coming-soon.JPG');
+    background-size: cover;
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #index-main {
     background-image: url('/assets/images/hero-large.JPEG');
     background-size: cover;

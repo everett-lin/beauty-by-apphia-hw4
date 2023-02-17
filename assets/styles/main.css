@@ -271,8 +271,6 @@ hr {
     background-color: #b7b7a4;
 }
 
-
-
 /* About */
 
 #about-banner pre {
@@ -522,5 +520,10 @@ hr {
 
     #service-conditions {
         max-width: 45ch;
+    }
+
+    #book-now {
+        padding:16px 75px;
+        margin: 3rem;
     }
 }

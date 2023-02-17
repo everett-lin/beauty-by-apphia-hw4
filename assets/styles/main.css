@@ -192,15 +192,11 @@ hr {
     color: black;
 }
 
-#services-banner {
-    margin-bottom: 0px;
-    padding-bottom: 0px`    ;
-}
-
 #services-banner img{
     width: 100%;
     height: auto;
 }
+
 
 #about-banner pre {
     margin: 0;

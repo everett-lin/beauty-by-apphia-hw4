@@ -371,7 +371,7 @@ hr {
 
     #coming-soon {
         background-image: url('/assets/images/coming-soon-small.JPG');
-        background-size: auto;
+        background-size: cover;
     }
 
     #greeting {

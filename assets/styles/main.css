@@ -488,4 +488,8 @@ hr {
     #services-banner {
         padding-top: 2rem;
     }
+
+    #service-conditions {
+        max-width: 50ch;
+    }
 }

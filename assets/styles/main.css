@@ -317,7 +317,9 @@ hr {
 #about-me-text {
     padding-left: 3rem;
     font-size: 14px;
-    font-family: "Playfair Display", serif;
+
+    font-family: sans-serif;
+    letter-spacing: 0.05rem;
     max-width: 60ch;
 }
 
@@ -482,7 +484,6 @@ hr {
         padding: 5%;
         max-width: 45ch;
         font-size: 16px;
-        font-family: "Playfair Display", serif;
     }
 
     #services-banner {

@@ -493,10 +493,10 @@ hr {
 
     #service-text {
         font-size: 14px;
-        max-width: 50ch;
+        max-width: 45ch;
     }
 
     #service-conditions {
-        max-width: 50ch;
+        max-width: 45ch;
     }
 }

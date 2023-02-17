@@ -484,6 +484,7 @@ hr {
         padding: 5%;
         max-width: 45ch;
         font-size: 16px;
+        font-family: "Playfair Display", serif;
     }
 
     #services-banner {

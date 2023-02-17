@@ -491,6 +491,7 @@ hr {
 
     #service-text {
         font-size: 14px;
+        max-width: 50ch;
     }
 
     #service-conditions {

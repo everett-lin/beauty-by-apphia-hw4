@@ -516,8 +516,8 @@ hr {
     }
 
     #service-text {
+        padding-right: 2rem;
         font-size: 14px;
-        max-width: 40ch;
     }
 
     #service-conditions {

@@ -192,11 +192,64 @@ hr {
     color: black;
 }
 
+/* Services */
+
 #services-banner img{
     width: 100%;
     height: auto;
 }
 
+#services-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-hr {
+    width: 70%;
+    height: 3px;
+    margin: 0;
+    border: none;
+    background-color: black;
+    transform: rotate(0deg);
+}
+
+#services-greeting {
+    font-family: "Southwood", serif;
+    font-size: 100px;
+
+    padding: 0;
+    margin: 1%;
+}
+
+.service-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+
+    color: black;
+}
+
+#service-text {
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#463f3a;
+}
+
+
+#service-conditions{
+    max-width: 60ch;
+
+    text-transform:uppercase;
+
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+}
+
+/* About */
 
 #about-banner pre {
     margin: 0;

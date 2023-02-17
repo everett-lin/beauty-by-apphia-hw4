@@ -530,6 +530,12 @@ label {
         padding:16px 75px;
         margin: 3rem;
     }
+
+    form {    
+        padding: 2rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 /* Tablet */
 @media (max-width: 768px) {
@@ -610,17 +616,8 @@ label {
         max-width: 45ch;
     }
 
-    form {
-        background-color: var(--nude-pallette-3);
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    
+    form {    
         padding: 2rem;
-    
-        margin-top: 5%;
         margin-left: 0%;
         margin-right: 0%;
     }

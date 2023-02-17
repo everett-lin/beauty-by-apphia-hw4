@@ -20,19 +20,19 @@
 </head>
 
 <body>
-    <header class="bg-dark">
-        <a id="logo" class="text-light" href="index.html">Beauty By Apphia</a>
+    <header class="bg-light">
+        <a id="logo" class="text-dark" href="index.html">Beauty By Apphia</a>
         <nav>
             <ul id="nav-menu" class="text-light">
-                <li><a class="text-light" href="index.html" alt="Home">Home</a></li>
-                <li><a class="text-light" href="about.html"alt="About">About</a></li>
-                <li><a class="text-light" href="services.html" alt="Services">Services</a></li>
-                <li><a class="text-light" href="portfolio.html" alt="Portfolio">Portfolio</a></li>
-                <li><a class="text-light" href="testimonials.html" alt="Testimonials">Testimonials</a></li>
-                <li id="cta"><a class="text-light" href="inquiry.html" alt="Inquiry">Inquiry</a></li>
+                <li><a class="text-dark" href="index.html" alt="Home">Home</a></li>
+                <li><a class="text-dark" href="about.html"alt="About">About</a></li>
+                <li><a class="text-dark" href="services.html" alt="Services">Services</a></li>
+                <li><a class="text-dark" href="portfolio.html" alt="Portfolio">Portfolio</a></li>
+                <li><a class="text-dark" href="testimonials.html" alt="Testimonials">Testimonials</a></li>
+                <li id="cta"><a class="text-dark" href="inquiry.html" alt="Inquiry">Inquiry</a></li>
             </ul>
 
-            <svg id="nav-hamburger" width="48px" height="48px" viewBox="0 0 24 24" stroke="white" xmlns="http://www.w3.org/2000/svg">
+            <svg id="nav-hamburger" width="48px" height="48px" viewBox="0 0 24 24" stroke="black" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
 
@@ -46,50 +46,38 @@
         </nav>
     </header>
     
-    <div id="about-banner" class="text-light">
-        <pre>Let's Get  to Know Each Other</pre>
-    </div>
-    <hr>
-
-    <main id="about-main">
-        <section id="about">
-            <img src="/assets/images/about-me-portrait.jpg" alt="Apphia Liu">
-
-            <div id="about-container">
-                <span id="greeting">Hello gorgeous!</span>
-                <p id="about-me-text">
-                    Apphia is a Professional Hairstylist and Makeup Artist offering on-site services to modern brides who want to look and feel their best on the most important days of their life.<br><br>
-
-                    With over 8+ years of experience as a Beauty Professional in the Seattle wedding industry, and a portfolio of over 150+ weddings, Apphia brings a wealth of knowledge, passion, and expertise to each and every client she works with. She has mastered the art of creating flawless, yet natural bridal looks, through her ongoing investment in achieving perfection in her craft. Her attention to detail and commitment to using only the highest quality luxury products and tools guarantees long-lasting, stunning results. Through her dedication and close communication with her clients, Apphia ensures that each and every bride's vision for their hair and makeup is brought to life, while still making them feel authentically themselves. Her greatest joy is enhancing natural beauty, while making you look and feel the most confident, radiant, and beautiful you’ve ever felt on your special day.<br><br> 
-
-                    We look forward to helping you look and feel your best on your wedding day!<br><br> 
-
-                    ~ Beauty by Apphia
-                </p>
-            </div>
-        </section>
-
-        <section id="about-mobile">
-            <div id="about-container">
-                <span id="greeting">Hello gorgeous!</span>
-
-                <img src="/assets/images/about-me-landscape.jpg" alt="Apphia Liu">
-
-                <p id="about-me-text">
-                    Apphia is a Professional Hairstylist and Makeup Artist offering on-site services to modern brides who want to look and feel their best on the most important days of their life.<br><br>
-
-                    With over 8+ years of experience as a Beauty Professional in the Seattle wedding industry, and a portfolio of over 150+ weddings, Apphia brings a wealth of knowledge, passion, and expertise to each and every client she works with. She has mastered the art of creating flawless, yet natural bridal looks, through her ongoing investment in achieving perfection in her craft. Her attention to detail and commitment to using only the highest quality luxury products and tools guarantees long-lasting, stunning results. Through her dedication and close communication with her clients, Apphia ensures that each and every bride's vision for their hair and makeup is brought to life, while still making them feel authentically themselves. Her greatest joy is enhancing natural beauty, while making you look and feel the most confident, radiant, and beautiful you’ve ever felt on your special day.<br><br> 
-
-                    We look forward to helping you look and feel your best on your wedding day!<br><br> 
-
-                    ~Beauty by Apphia
-                </p>
-            </div>
-        </section>
+    <main id="inquiry-main">
+        <div id="inquiry-header">
+            <p class="title-text"> Let's Get in Touch</p>
+        </div>
+        
+        <div>
+            <form>
+                <label for="full-name" class="required">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name..."><br>
+        
+                <label for="phone-number" class="required">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" required placeholder="Enter your phone number..."><br>
+        
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email..."><br>
+        
+                <label for="instagram">Instagram</label>
+                <input type="text" id="instagram" name="instagram" placeholder="Enter your Instagram handle..."><br>
+        
+                <label for="wedding-date" class="required">Wedding Date</label>
+                <input type="date" id="wedding-date" name="wedding-date" required><br>
+        
+                <label for="venue-address">Venue / Address</label>
+                <input type="text" id="venue-address" name="venue-address" placeholder="Enter your wedding venue or address..."><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
 
     </main>
-
-    <footer id="about-footer">
+    
+    <footer id="inquiry-footer">
         <div class="instagram-logo">
             <a href="https://www.instagram.com/beautyby_apphia/" target="_blank" alt="Apphia's Instagram">
                 <svg width="29" heigh="29" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">

@@ -31,7 +31,7 @@ header {
 #nav-hamburger:hover {
     stroke: var(--nude-pallette-3);
 }
-
+`   
 nav {
     display: flex;
     justify-content: center;
@@ -64,22 +64,6 @@ nav #cta {
     background-color:var(--nude-pallette-5);
 }
 
-#coming-soon {
-    background-image: url('/assets/images/coming-soon.JPG');
-    background-size: cover;
-    background-position: 40% 40%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-#index-main {
-    background-image: url('/assets/images/hero-large.JPEG');
-    background-size: cover;
-    background-position: 40% 40%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 #logo {
     height: auto;
     padding-left: 1rem;
@@ -91,51 +75,6 @@ nav #cta {
     font-size: 1.5rem;
     font-style:normal;
     letter-spacing: 0.15rem;
-}
-
-#hero-text {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-
-    padding-left: 1rem;
-    height: 100vh;
-}
-
-.title-text {
-    all:initial;
-    color: white;
-    text-transform: uppercase;
-    font-size: 96px;
-    font-family: 'Playfair Display', serif;
-}
-
-
-#welcome-quote {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: white;
-
-    font-family: 'Playfair Display';
-    letter-spacing: 0.05em;
-}
-
-#welcome-quote p {
-    max-width: 80ch;
-}
-
-.cursive {
-    display: flex;
-    justify-content: center;
-    font-family: 'Southwood';
-    font-size: 4rem;
 }
 
 footer {
@@ -190,6 +129,70 @@ hr {
 
 .text-dark {
     color: black;
+}
+
+/* Temporary */
+
+#coming-soon {
+    background-image: url('/assets/images/coming-soon.JPG');
+    background-size: cover;
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Index */
+
+#index-main {
+    background-image: url('/assets/images/hero-large.JPEG');
+    background-size: cover;
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    padding-left: 1rem;
+    height: 100vh;
+}
+
+#welcome-quote {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+
+    font-family: 'Playfair Display';
+    letter-spacing: 0.05em;
+}
+
+#welcome-quote p {
+    max-width: 80ch;
+}
+
+.cursive {
+    display: flex;
+    justify-content: center;
+    font-family: 'Southwood';
+    font-size: 4rem;
+}
+
+.title-text {
+    all:initial;
+    color: white;
+    text-transform: uppercase;
+    font-size: 96px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Services */
@@ -359,7 +362,77 @@ hr {
     background-color: var(--nude-pallette-3);
 }
 
-/* laptop */
+
+/* Inquiry */
+#inquiry-main {
+    background-image: url('/assets/images/inquiry.JPEG');
+    background-size: cover;
+
+    height: 100vh;
+}
+
+#inquiry-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 7%;
+}
+
+#inquiry-footer {
+    background-color: white;
+}
+
+form {
+    background-color: var(--nude-pallette-3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    padding: 5rem;
+
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid;     
+}
+
+input[type="submit"] {
+    background-color: #a5a58d;
+    color: #463f3a;;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b7b7a4;
+}
+
+label {
+    font-family: "Playfair Display", serif;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+.required:after {
+    content: " *";
+    color: black;
+}
+
+/* Desktop */
 @media (max-width: 1600px) {
     .title-text {
         font-size: 64px;
@@ -372,6 +445,7 @@ hr {
         width: 360px;
     }
 }
+/* Laptop */
 @media (max-width: 1200px) {
     #index-main {
         background-image: url('/assets/images/hero-small.JPEG');
@@ -403,7 +477,7 @@ hr {
     }
 }
 
-/* small laptop */
+/* Small laptop */
 @media (max-width: 992px) {
 
     #nav-menu {
@@ -457,7 +531,7 @@ hr {
         margin: 3rem;
     }
 }
-/* tablet */
+/* Tablet */
 @media (max-width: 768px) {
     #logo {
         padding-left: 0.5rem;
@@ -505,7 +579,7 @@ hr {
         font-size: 14px;
     }
 }
-/* phone */
+/* Phone */
 @media (max-width: 480px) {
     .title-text {
         font-size: 32px;
@@ -534,5 +608,20 @@ hr {
 
     #service-conditions {
         max-width: 45ch;
+    }
+
+    form {
+        background-color: var(--nude-pallette-3);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+        padding: 2rem;
+    
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }

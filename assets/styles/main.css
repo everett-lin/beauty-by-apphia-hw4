@@ -290,6 +290,12 @@ hr {
         background-position: center;
     }
 
+    #coming-soon {
+        background-image: url('/assets/images/coming-soon.JPG');
+        background-size: cover;
+        background-position: center;
+    }
+
     #greeting {
         font-size: 4rem;
     }

@@ -279,7 +279,7 @@ hr {
     padding-bottom: 2.5rem;
     text-align: center;
 
-    width: cover;
+    width: 100%;
 
     background-image: url(/assets/images/about-banner.jpg) ;
     background-size: 100%;
@@ -372,7 +372,6 @@ hr {
     #coming-soon {
         background-image: url('/assets/images/coming-soon-small.JPG');
         background-size: cover;
-        background-position: local;
     }
 
     #greeting {

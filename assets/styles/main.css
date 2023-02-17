@@ -249,6 +249,30 @@ hr {
     letter-spacing: 0.05rem;
 }
 
+#book-now {
+    background-color: #a5a58d;
+    border: 0;
+
+	display:inline-block;
+
+	cursor:pointer;
+
+	padding:20px 100px;
+    margin: 3rem;
+
+    font-weight: 500;
+    font-family: sans-serif;
+    text-transform: uppercase;
+	text-decoration:none;
+    color: #463f3a;
+}
+
+#book-now:hover {
+    background-color: #b7b7a4;
+}
+
+
+
 /* About */
 
 #about-banner pre {

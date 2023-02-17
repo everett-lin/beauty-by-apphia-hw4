@@ -332,14 +332,13 @@ hr {
     display:none;
 }
 
-#about-container {
+.about-container {
     padding-right: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     letter-spacing: 0.05rem;
-
 }
 
 #greeting {
@@ -567,7 +566,7 @@ label {
         display: block;
     }
 
-    #about-container {
+    .about-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -575,7 +574,7 @@ label {
         padding: 0;
     }
 
-    #about-container img{
+    .about-container img{
         width: 90%;
     }
 

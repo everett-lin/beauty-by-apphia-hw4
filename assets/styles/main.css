@@ -209,7 +209,7 @@ hr {
     align-items: center;
 }
 
-#services-hr {
+.services-hr {
     width: 70%;
     height: 3px;
     margin: 0;

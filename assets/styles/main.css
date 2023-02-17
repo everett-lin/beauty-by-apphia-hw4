@@ -489,6 +489,10 @@ hr {
         padding-top: 2rem;
     }
 
+    #service-text {
+        font-size: 14px;
+    }
+
     #service-conditions {
         max-width: 50ch;
     }

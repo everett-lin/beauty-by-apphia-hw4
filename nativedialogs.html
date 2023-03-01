@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Dialogs</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.1/purify.js"></script>
+</head>
+<body>
+	<h1>Part 1: Simple Dialogs</h1>
+
+	<button id="alertButton">Alert</button>
+	<button id="confirmButton">Confirm</button>
+
+	<button id="promptButton">Prompt</button>
+	<button id="saferPromptButton">Safer Prompt</button>
+
+    <br>
+    <hr>
+    <br>
+    
+    <output id="output"></output>
+	
+	<script>
+        let output = document.getElementById("output");
+
+		let alertButton = document.getElementById("alertButton");
+        alertButton.addEventListener("click", () => {
+			alert("Alert!");
+		});
+
+		let confirmButton = document.getElementById("confirmButton");
+		confirmButton.addEventListener("click", () => {
+            if(confirm("Are you sure you want to do this?")) {
+                output.innerHTML = `The value returned by the confirm method is: "<strong>Confirmed</strong>!"`;
+            } 
+            else {
+                output.innerHTML = `The value returned by the confirm method is: "<strong>Not confirmed</strong>!"`;
+            }
+		});
+
+		const promptButton = document.getElementById("promptButton");
+		promptButton.addEventListener("click", () => {
+            let input = prompt("What is your age?");
+
+            if(input === null) {
+                output.innerHTML = `User didn't enter anything...`;
+            } 
+            else {
+                output.innerHTML = `You are ${input} years old!`;
+            }
+		});
+
+		const saferPromptButton = document.getElementById("saferPromptButton");
+		saferPromptButton.addEventListener("click", () => {
+			let input = prompt("What is your age?");
+
+            if(input === null) {
+                output.innerHTML = `User didn't enter anything...`;
+            } 
+            else {
+                input = DOMPurify.sanitize(input);
+                output.innerHTML = `You are ${input} years old!`;
+            }
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "postTitle": "First Blog Post",
+            "postDate": "2022-01-01",
+            "postSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus felis in diam dictum, vel pulvinar turpis luctus."
+        },
+        {
+            "postTitle": "Second Blog Post",
+            "postDate": "2022-01-15",
+            "postSummary": "Praesent scelerisque felis sit amet tellus semper, in faucibus felis tincidunt. Aenean ut nunc vitae sapien ultricies gravida."
+        },
+        {
+            "postTitle": "Third Blog Post",
+            "postDate": "2022-02-01",
+            "postSummary": "Integer eu justo suscipit, consequat eros vel, consequat justo. Nulla fringilla purus et bibendum congue."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple CRUD</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.1/purify.js"></script>
+    
+</head>
+<body>
+	<h1>Blog</h1>
+
+    <section id="blog-section"></section>
+
+    <script type="module">
+        import * as Blog from './assets/scripts/blog.js';
+
+        window.addEventListener('load', Blog.init());
+
+
+        let addButton = document.getElementById('addButton');
+        addButton.addEventListener('click', () => {
+           Blog.add();
+        });
+    </script>
+
+	<button id="addButton">Add</button>
+
+</body>
+</html>

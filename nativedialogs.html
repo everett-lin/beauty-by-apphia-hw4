@@ -40,26 +40,26 @@
 
 		const promptButton = document.getElementById("promptButton");
 		promptButton.addEventListener("click", () => {
-            let input = prompt("What is your age?");
+            let input = prompt("What is your message?");
 
             if(input === null) {
-                output.innerHTML = `User didn't enter anything...`;
+                output.innerHTML = `User didn't enter a message...`;
             } 
             else {
-                output.innerHTML = `You are ${input} years old!`;
+                output.innerHTML = `You would like to say:  ${input}!`;
             }
 		});
 
 		const saferPromptButton = document.getElementById("saferPromptButton");
 		saferPromptButton.addEventListener("click", () => {
-			let input = prompt("What is your age?");
+			let input = prompt("What is your message?");
 
             if(input === null) {
-                output.innerHTML = `User didn't enter anything...`;
+                output.innerHTML = `User didn't enter a message...`;
             } 
             else {
                 input = DOMPurify.sanitize(input);
-                output.innerHTML = `You are ${input} years old!`;
+                output.innerHTML = `You would like to say:  ${input}!`;
             }
 		});
 	</script>

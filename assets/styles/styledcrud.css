@@ -68,22 +68,22 @@ hr {
 
 dialog {
     font-family: Helvetica;
-    background-color: #665c54;
+    background-color: #3c3836;
     border: 0;
-    color:#212121:
+    color:#689d6a;
 }
 
 dialog input {
     border: 0;
-    background-color: #928374;
+    background-color: #504945;
 }
 
 dialog textarea {
     border: 0;
-    background-color: #928374;
+    background-color: #504945;;
 }
 
 dialog button {
     border: 0;
-    background-color: #928374;
+    background-color: #a89984;
 }

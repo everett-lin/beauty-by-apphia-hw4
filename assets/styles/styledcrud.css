@@ -1,0 +1,89 @@
+body {
+    font-family: Helvetica;
+    background-color: #282828;
+}
+
+h1 {
+    text-align: center;
+    color:#d79921;
+}
+
+h3 {
+    color: #d79921;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div {
+    background-color: #212121;
+    color:#ebdbb2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+
+time {
+    color: #a89984;
+}
+
+hr {
+    display: none
+}
+
+#addButton {
+    margin-left: 10%;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+    background-color: #689d6a;
+    border: 0;
+    font-size: 15px;
+    color: #282828;
+}
+
+[id^="edit-"] {
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right:5px;
+}
+
+[id^="delete-"] {
+    cursor: pointer;
+}
+
+.blog-header {
+    padding:0;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+dialog {
+    font-family: Helvetica;
+    background-color: #665c54;
+    border: 0;
+    color:#212121:
+}
+
+dialog input {
+    border: 0;
+    background-color: #928374;
+}
+
+dialog textarea {
+    border: 0;
+    background-color: #928374;
+}
+
+dialog button {
+    border: 0;
+    background-color: #928374;
+}

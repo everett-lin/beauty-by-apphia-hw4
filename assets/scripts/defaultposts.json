@@ -1,19 +1,24 @@
 {
     "posts": [
         {
-            "postTitle": "First Blog Post",
-            "postDate": "2022-01-01",
-            "postSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus felis in diam dictum, vel pulvinar turpis luctus."
+            "postTitle": "Why I Switched to Gruvbox for my Code Editor",
+            "postDate": "2023-03-15",
+            "postSummary": "In this post, I'll share my experience with using Gruvbox as my code editor theme and why I prefer it over other popular themes. With its warm color palette and high contrast, Gruvbox is easy on the eyes and makes code more readable for long hours of coding."
         },
         {
-            "postTitle": "Second Blog Post",
-            "postDate": "2022-01-15",
-            "postSummary": "Praesent scelerisque felis sit amet tellus semper, in faucibus felis tincidunt. Aenean ut nunc vitae sapien ultricies gravida."
+            "postTitle": "Customizing Gruvbox for Your Terminal",
+            "postDate": "2023-04-1",
+            "postSummary": "Gruvbox is a popular theme for code editors, but did you know you can also customize it for your terminal? In this post, we'll go over the steps to install and customize Gruvbox for your terminal to give your command line a sleek and modern look."
         },
         {
-            "postTitle": "Third Blog Post",
-            "postDate": "2022-02-01",
-            "postSummary": "Integer eu justo suscipit, consequat eros vel, consequat justo. Nulla fringilla purus et bibendum congue."
+            "postTitle": "Gruvbox vs. Solarized: Which is the Better Theme?",
+            "postDate": "2023-05-7",
+            "postSummary": "Gruvbox and Solarized are two of the most popular code editor themes, but which one is the better choice? In this post, we'll compare the two themes in terms of color scheme, syntax highlighting, and customization options to help you make an informed decision."
+        },
+        {
+            "postTitle": "Using Gruvbox in Your Web Development Projects",
+            "postDate": "2023-06-15",
+            "postSummary": "Gruvbox is not just for code editors and terminals - it can also be used in web development projects! In this post, we'll go over the steps to install and use Gruvbox in your CSS stylesheets to give your web projects a professional and cohesive look."
         }
     ]
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styled CRUD</title>
+    <link rel="stylesheet" href="/assets/styles/styledcrud.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.1/purify.js"></script>
+
+</head>
+<body>
+	<h1>The Gruvbox Club</h1>
+
+    <section id="blog-section"></section>
+
+    <script type="module">
+        import * as Blog from './assets/scripts/styledblog.js';
+
+        window.remove = Blog.remove;
+        window.edit = Blog.edit;
+        window.addEventListener('load', Blog.init());
+
+        let addButton = document.getElementById('addButton');
+        addButton.addEventListener('click', () => {
+           Blog.add();
+        });
+    </script>
+
+	<button id="addButton">Add</button>
+
+</body>
+</html>

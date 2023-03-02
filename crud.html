@@ -4,7 +4,7 @@
 	<title>Simple CRUD</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.1/purify.js"></script>
-    
+
 </head>
 <body>
 	<h1>Blog</h1>
@@ -14,8 +14,9 @@
     <script type="module">
         import * as Blog from './assets/scripts/blog.js';
 
-        window.addEventListener('load', Blog.init());
+        window.remove = Blog.remove;
 
+        window.addEventListener('load', Blog.init());
 
         let addButton = document.getElementById('addButton');
         addButton.addEventListener('click', () => {

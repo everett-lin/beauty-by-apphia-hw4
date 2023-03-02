@@ -1,17 +1,18 @@
-// Init and create local storage on user's first load
+var id = 0;
+
+// Helper function to initialize local storage on first load
 export async function init() {
     if(localStorage.getItem('posts') !== null) {
         console.log('Local storage exists!');
     } else {
+        // Only populate with default values when there is no local storage
         console.log('Local storage does not exist. Populating with default values...');
-
-        // Async to prevent initBlog() from running before population is complete
         await populate('/assets/scripts/defaultposts.json');
     }
     initBlog();
 }
 
-// Uses default values from JSON to create default posts
+// Populates local storage with default blog posts values
 function populate(URL) {
     return new Promise(resolve => {
         fetch(URL)
@@ -31,25 +32,26 @@ function initBlog() {
     let posts = JSON.parse(localStorage.getItem('posts')).posts;
 
     for (let i = 0; i < posts.length; i++) {
-        appendPost(posts[i].postTitle, posts[i].postDate, posts[i].postSummary);
+        id++;
+        appendPost(posts[i].postTitle, posts[i].postDate, posts[i].postSummary, id);
     };
 }
 
-// Helper to write new post to screen
-function appendPost(title, date, summary) {
+function appendPost(title, date, summary, id) {
     let bs = document.getElementById('blog-section');
-
     let post = document.createElement('div');
+
+    post.setAttribute('id', `post-${id}`);
+
     post.innerHTML = `
         <hr>
-        <h3>${title}</h3>
+        <h3 id="title-${id}">${title}</h3>
         <time datetime="${date}" format="MM/DD/YYYY">${date}</time>
         <button>Edit</button>
-        <button onclick="Blog.test(1)">Delete</button>
+        <button id="delete-${id}" onclick="remove(${id})">Delete</button>
         <p>${summary}</p>
         <hr>
     `;
-
     bs.appendChild(post);
 }
 
@@ -85,7 +87,6 @@ export function add() {
 
         appendPost(title, date, summary);
 
-        // Save new post to local storage as well
         let posts = JSON.parse(localStorage.getItem('posts')).posts;
         posts.push({postTitle: title, postDate: date, postSummary: summary});
 
@@ -101,9 +102,20 @@ export function add() {
         promptDialog.close();
         document.body.removeChild(promptDialog);
     });
-
 }
 
-export function test() {
-    alert(1);
+export function remove(id) {
+    let posts = JSON.parse(localStorage.getItem('posts')).posts;
+    let targetTitle = document.getElementById(`title-${id}`).innerHTML;
+
+    for(let i = 0; i < posts.length; i++) {
+        if(posts[i].postTitle == targetTitle) {
+            posts.splice(i, 1);
+        }
+    }
+
+    let updatedPosts = JSON.stringify({posts: posts});
+    localStorage.setItem('posts', updatedPosts);
+
+    document.getElementById(`post-${id}`).remove();
 }

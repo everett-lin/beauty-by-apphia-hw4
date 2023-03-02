@@ -1,16 +1,17 @@
-// Helper function to initialize local storage on first load
+// Init and create local storage on user's first load
 export async function init() {
     if(localStorage.getItem('posts') !== null) {
         console.log('Local storage exists!');
     } else {
-        // Only populate with default values when there is no local storage
         console.log('Local storage does not exist. Populating with default values...');
+
+        // Async to prevent initBlog() from running before population is complete
         await populate('/assets/scripts/defaultposts.json');
     }
     initBlog();
 }
 
-// Populates local storage with default blog posts values
+// Uses default values from JSON to create default posts
 function populate(URL) {
     return new Promise(resolve => {
         fetch(URL)
@@ -34,19 +35,21 @@ function initBlog() {
     };
 }
 
+// Helper to write new post to screen
 function appendPost(title, date, summary) {
     let bs = document.getElementById('blog-section');
-    let post = document.createElement('div');
 
+    let post = document.createElement('div');
     post.innerHTML = `
         <hr>
         <h3>${title}</h3>
         <time datetime="${date}" format="MM/DD/YYYY">${date}</time>
         <button>Edit</button>
-        <button>Delete</button>
+        <button onclick="Blog.test(1)">Delete</button>
         <p>${summary}</p>
         <hr>
     `;
+
     bs.appendChild(post);
 }
 
@@ -82,6 +85,7 @@ export function add() {
 
         appendPost(title, date, summary);
 
+        // Save new post to local storage as well
         let posts = JSON.parse(localStorage.getItem('posts')).posts;
         posts.push({postTitle: title, postDate: date, postSummary: summary});
 
@@ -97,4 +101,9 @@ export function add() {
         promptDialog.close();
         document.body.removeChild(promptDialog);
     });
+
+}
+
+export function test() {
+    alert(1);
 }

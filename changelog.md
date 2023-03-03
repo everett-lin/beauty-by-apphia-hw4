@@ -1,0 +1,3 @@
+Not enough time this week to implement new changes on top of the dialog + CRUD work, but I definitely tried and implemented a lot for HW3 so I am not sure if that counts for anything.
+
+3rd Party Script - since this will eventually actually be a business website for my girlfriend, I implemented the Google Analytics script so that she can track visitors to her site and I could potentially see what they are interacting with to improve the experience.
